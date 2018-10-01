@@ -5,15 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Actividad 1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
 </head>
+
 <body>
-    <script>
-        for (let index = 0; index < array.length; index++) {
-            const element = array[index];
-            
-        }
-    </script>
+    <?php for ($color = 0; $color < 256; $color++) {
+        echo "<div style='background-color:rgb(0,$color,0)'>(0,$color,0)</div>";
+    }
+    ?>
+    
 </body>
 </html>
